@@ -1,0 +1,14 @@
+:root {
+  --text-font: Roboto, sans-serif;
+  --title-font: Raleway, sans-serif;
+  --accent-color: #757575;
+  --second-color: #212121;
+  --tertiary-color: #2196F3;
+  --logo-color: #000000;
+  --main-title-color: #ffffff;
+  --second-white-footer:rgba(255, 255, 255, 0.6);
+  --background-accent-color: #ffffff;
+  --background-second-color:#F5F4FA;
+  --background-porfolio-color: #E5E5E5;
+  --background-footer-color:#2F303A;
+}

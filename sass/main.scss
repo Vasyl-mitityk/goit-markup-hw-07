@@ -1,0 +1,21 @@
+/*utils*/
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+
+/*base*/
+@import "./base/common";
+@import "./base/contenier";
+
+/*component*/
+@import "./component/body";
+
+
+/*layout*/
+@import "./layout/header";
+@import "./layout/title";
+@import "./layout/services";
+@import "./layout/do";
+@import "./layout/team";
+@import "./layout/customers";
+@import "./layout/footer";
+@import "./layout/backdrop";

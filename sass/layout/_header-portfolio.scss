@@ -1,0 +1,42 @@
+.header .link-main, 
+        .header .link-portfolio-active, 
+        .header .link-contact{
+            display: flex;
+            padding-top: 32px;
+            padding-bottom: 32px;
+            transition-duration: 250ms;
+            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            font-weight: 500; 
+            color:var(--second-color);
+            line-height: 1.142;
+            letter-spacing: 0.02em; 
+        }
+        
+        .header .link-main:hover,
+        .header .link-main:focus,
+        .header .link-contact:hover,
+        .header .link-contact:focus {
+            color: var(--tertiary-color);
+        }
+        
+        
+        
+        
+        .header .link-portfolio-active {
+            position: relative;
+            color: var(--tertiary-color);
+        }
+
+        .header .link-portfolio-active::after {
+            position: absolute;
+            display: flex;
+            width: 78px;
+            height: 4px;
+            left: 0;
+            bottom: 0;
+            border-radius: 2px;
+            content: '';
+            background-position: center;
+                     
+            background-color:rgba(33, 150, 243, 1);
+        }

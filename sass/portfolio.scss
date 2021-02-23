@@ -1,0 +1,20 @@
+/*===============utils============*/
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+
+/*============base==============*/
+@import "./base/common";
+@import "./base/contenier";
+
+/*============component========*/
+@import "./component/body";
+
+/*============layout========*/
+@import "./layout/header";
+@import "./layout/header-portfolio";
+@import "./layout/portfolio";
+@import "./layout/portfolio-main";
+@import "./layout/team";
+@import "./layout/footer";
+
+

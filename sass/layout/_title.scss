@@ -1,0 +1,58 @@
+.group-title {
+    background-color:var(--background-footer-color);
+    width: 1600px;
+    height: 600px;
+    margin: 0 auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+     url(../imeges/title/Img-back-title.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.group-title .contenier{
+    width: 696px;
+    
+
+}
+
+
+.group-title .title-main {
+    font-family:var(--text-font);
+    font-weight: 900;
+    color:var(--main-title-color);
+    font-size: 44px;
+    line-height: 1.363;
+    letter-spacing: 0.06em;
+   
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.group-title .title-but {
+    font-family:var(--text-font);
+    font-weight: 700;
+    color: var(--main-title-color);
+    background-color:var(--tertiary-color);
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    background: #2196F3;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 32px;
+    
+}
