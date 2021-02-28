@@ -1,6 +1,30 @@
 .contenier {
-    width: 1230px;
+    width: 1200px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0 15px;
+
+    .footer & {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    
+    
+    }
+
+    &-social {
+        width: 206px;
+        
+     }
+
+     .header & {
+        display: flex;
+        align-items: center;
+    }
+
+    .group-title & {
+        width: 696px;
+        
+    
+    }
+    
 }
